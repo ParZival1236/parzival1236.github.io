@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>बधाई!</title>
+    <link rel="stylesheet" href="app.css" />
+  </head>
+  <body background="ohyeah.gif">
+    <div class="container">
+      <div id="end" class="flex-center flex-column">
+        <h1>नतीजा</h1>
+        <h1 id="finalScore"></h1>
+        <form>
+          <input
+            type="text"
+            name="username"
+            id="username"
+            placeholder="username"
+          />
+          <button
+            type="submit"
+            class="btn"
+            id="saveScoreBtn"
+            onclick="saveHighScore(event)"
+            disabled
+          >
+          सहेजें
+          </button>
+        </form>
+        <a class="btn" href="/game.html">पुनः प्रयास करें</a>
+        <a class="btn" href="/index.html">होम पेज पर जाएं</a>
+      </div>
+    </div>
+    <script src="end.js"></script>
+  </body>
+</html>
